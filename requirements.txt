@@ -1,0 +1,8 @@
+numpy==2.4.6
+pandas==3.0.3
+matplotlib==3.11.0
+scikit-learn==1.9.0
+joblib==1.5.3
+tensorflow==2.22.0rc0
+keras==3.16.0.dev2026092904
+jupyter

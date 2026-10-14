@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# MATLAB / Simulink generated files
+*.slxc
+slprj/
+simulink_cache/
+*.autosave
+# Original MathWorks reference model
+matlab/PermanentMagnetDCMotor.slx
+# Simulink models kept locally
+matlab/*.slx
+
+# Temporary simulation outputs
+matlab/simulation_results.mat
+matlab/simulation_results_fixed_time.mat
+
+# Environment and editor files
+.venv/
+venv/
+.env
+.vscode/
