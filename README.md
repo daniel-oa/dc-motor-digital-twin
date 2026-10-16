@@ -102,7 +102,17 @@ The project compares a feedforward neural network with RNN, LSTM, and GRU archit
 
 Evaluation includes prediction errors and the models' ability to reproduce motor behaviour over time, including startup, load application, and steady-state operation.
 
-Quantitative performance results are reported in the notebooks.
+### Steady-State Evaluation
+
+The LSTM achieved the lowest steady-state prediction errors among the three recurrent models on held-out simulated motor trajectories.
+
+| Model | Current MAE (A) | Speed MAE (rpm) |
+|---|---:|---:|
+| RNN | 0.03378 | 1,686.84031 |
+| LSTM | 0.00270 | 202.92492 |
+| GRU | 0.00799 | 532.84986 |
+
+These results measure agreement with the MATLAB/Simulink reference model, not physical motor measurements. See Notebook 3 for the full transient and steady-state evaluation.
 
 ## Limitations
 
